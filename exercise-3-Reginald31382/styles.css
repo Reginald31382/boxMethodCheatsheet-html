@@ -7,7 +7,107 @@
 html,
 body {
   margin: 0;
-  padding: 0;
+  padding: * {
+	border: 2px solid cornflowerblue;
+	margin: 5px;
+	padding: 3px;
+	}
+	
+html, body {
+	margin: 0;
+	padding: 0;
+	border: none;
+	}
+
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	}
+	
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	}	
+	
+h1 {
+	width: 50%;
+	}
+	
+.tool {
+	border: none;
+	}
+
+.middleBox {
+	display: flex;
+	flex: auto;
+	justify-content: space-between;
+	}
+	
+.mainArticle {
+	width: 75%
+	}
+
+.sideBar {
+	width: 25%
+	}
+	
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	}	* {
+	border: 2px solid cornflowerblue;
+	margin: 5px;
+	padding: 3px;
+	}
+	
+html, body {
+	margin: 0;
+	padding: 0;
+	border: none;
+	}
+
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	}
+	
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	}	
+	
+h1 {
+	width: 50%;
+	}
+	
+.tool {
+	border: none;
+	}
+
+.middleBox {
+	display: flex;
+	flex: auto;
+	justify-content: space-between;
+	}
+	
+.mainArticle {
+	width: 75%
+	}
+
+.sideBar {
+	width: 25%
+	}
+	
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	}	0;
   border: none;
 }
 
