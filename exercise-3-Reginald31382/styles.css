@@ -1,0 +1,83 @@
+* {
+  border: 2px solid cornflowerblue;
+  margin: 5px;
+  padding: 3px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+/*
+.header {
+  display: flex;
+}
+
+.title {
+  width: 50%;
+  font-size: 60px;
+}
+
+.main {
+  display: flex;
+}
+
+.footer {
+  display: flex;
+}
+
+.links {
+  display: flex;
+}
+*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+/*.nav, .a, .ul, {
+  border: none;
+} */
+
+header ul, a, nav {
+  border: none;
+}
+
+.title {
+  color: black;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex: auto;
+}
+
+article {
+  flex: 3;
+}
+
+aside {
+  flex: 1;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
